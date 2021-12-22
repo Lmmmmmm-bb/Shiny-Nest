@@ -23,6 +23,8 @@ $ nest g controller [router-path]
 
 ## 请求方法装饰器
 
+请求方法装饰器用来装饰 `class` 的一个方法，方法名不具有任何意义，意味着你可以将方法名任意命名，但是为了代码的可读性和可维护性建议将方法命名为与控制器相关联的名字。
+
 可以使用 `@Get()`, `@Post()`, `@Put()`, `@Delete()`, `@Patch()`, `@Options()`, `@Head()` 装饰器来告诉 Nest 该路由的请求方法。
 
 同时，每个装饰器可以提供一个 `path` 字符串参数，这个 `path` 就是路由的**补充路径**了。最后的路由路径将会和**主路径**拼接，即 `localhost:${port}/${router-path}/${path}`。
@@ -37,3 +39,9 @@ $ nest g controller [router-path]
 - `@Get()` => `Get localhost:3000/api/book`
 - `@Post()` => `Post localhost:3000/api/book`
 - `@Get('all')` => `Get localhost:3000/api/book/all`
+
+## 路由通配符
+
+请求方法装饰器可以使用正则的通配符。
+
+比如 `@Get('b*k')` 可以匹配到 `bk`, `bak`, `babck` 等等，除此之外还有 `?`, `+`, `()` 可以在路径中使用。
