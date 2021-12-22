@@ -35,3 +35,7 @@ Header: `token=Bearer Token`
 - `@Query('name')` => `'ninja'`
 - `@Headers()` => `{ ..., token: 'Bearer Token' }`
 - `@Headers('token')` => `'Bearer Token'`
+
+---
+
+- [下一章](./Controller-Status-Code.md)

@@ -26,3 +26,7 @@ getDocs(@Query('version') version) {
   }
 }
 ```
+
+---
+
+- [下一章](./Controller-Sub-Domian-Router.md)

@@ -45,3 +45,7 @@ $ nest g controller [router-path]
 请求方法装饰器可以使用正则的通配符。
 
 比如 `@Get('b*k')` 可以匹配到 `bk`, `bak`, `babck` 等等，除此之外还有 `?`, `+`, `()` 可以在路径中使用。
+
+---
+
+- [下一章](./Controller-Request-Object.md)
