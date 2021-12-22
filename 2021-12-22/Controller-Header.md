@@ -6,4 +6,4 @@
 
 ---
 
-- [下一章](./Controller-Redirect.md)
+[下一章](./Controller-Redirect.md)

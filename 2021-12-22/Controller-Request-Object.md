@@ -38,4 +38,4 @@ Header: `token=Bearer Token`
 
 ---
 
-- [下一章](./Controller-Status-Code.md)
+[下一章](./Controller-Status-Code.md)
