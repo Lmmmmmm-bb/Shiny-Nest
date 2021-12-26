@@ -24,3 +24,13 @@
 ## Module 模块
 
 - [介绍模块 Module](./2021-12-23/Module-Introduce.md)
+- [依赖注入](./2021-12-26/Module-Dependency-Injection.md)
+- [全局模块](./2021-12-26/Module-Global-Module.md)
+
+## Middleware 中间件
+
+- [介绍中间件 Middleware](./2021-12-26/Middleware-Introduce.md)
+- [应用中间件](./2021-12-26/Middleware-Applying-Middleware.md)
+- [中间件消费者](./2021-12-26/Middleware-Middleware-Consumer.md)
+- [函数中间件](./2021-12-26/Middleware-Function-Middleware.md)
+- [全局中间件](./2021-12-26/Middleware-Global-Middleware.md)
