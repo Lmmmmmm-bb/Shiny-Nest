@@ -20,3 +20,7 @@
 上面那句话可能有点绕，简单来说我这个模块不能导入其他模块的 Provider，除非其他模块有进行导出。
 
 那么如何导出，就用到了 `exports` 这个属性了，只需要把别的模块要用到的 Provider 传入 `exports` 数组即可。
+
+---
+
+[下一页](../2021-12-26/Module-Dependency-Injection.md)
