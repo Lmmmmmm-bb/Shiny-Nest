@@ -34,3 +34,17 @@
 - [中间件消费者](./2021-12-26/Middleware-Middleware-Consumer.md)
 - [函数中间件](./2021-12-26/Middleware-Function-Middleware.md)
 - [全局中间件](./2021-12-26/Middleware-Global-Middleware.md)
+
+## Exception Filter 异常过滤器
+
+- [介绍异常过滤器 Exception Filter](./2022-01-09/Exception-Filter-Introduce.md)
+- [自定义异常](./2022-01-09/Exception-Filter-Custom-Exception.md)
+- [内置的异常](./2022-01-09/Exception-Filter-Nest-Exception.md)
+- [异常过滤器](./2022-01-09/Exception-Filter-Exception-Filter.md)
+
+## Pipe 管道
+
+
+- [介绍管道 Pipe](./2022-01-09/Pipe-Introduce.md)
+- [自定义管道](./2022-01-09/Pipe-Custom-Pipe.md)
+- [基于模式的验证](./2022-01-09/Pipe-Schema-Based-Validation.md)
